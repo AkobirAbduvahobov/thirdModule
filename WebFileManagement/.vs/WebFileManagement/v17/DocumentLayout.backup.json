@@ -1,0 +1,259 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.server\\controllers\\storagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|solutionrelative:webfilemanagement.server\\controllers\\storagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.storagebroker\\services\\localstoragebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|solutionrelative:webfilemanagement.storagebroker\\services\\localstoragebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.storagebroker\\services\\istoragebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|solutionrelative:webfilemanagement.storagebroker\\services\\istoragebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.service\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|solutionrelative:webfilemanagement.service\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.service\\services\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|solutionrelative:webfilemanagement.service\\services\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.storagebroker\\services\\awsstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|solutionrelative:webfilemanagement.storagebroker\\services\\awsstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.storagebroker\\services\\dropboxstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|solutionrelative:webfilemanagement.storagebroker\\services\\dropboxstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.storagebroker\\services\\azurestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|solutionrelative:webfilemanagement.storagebroker\\services\\azurestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|solutionrelative:webfilemanagement.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.server\\webfilemanagement.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|solutionrelative:webfilemanagement.server\\webfilemanagement.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.service\\webfilemanagement.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|solutionrelative:webfilemanagement.service\\webfilemanagement.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.storagebroker\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|solutionrelative:webfilemanagement.storagebroker\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|d:\\projects\\.net projects(console)\\secondmodule\\webfilemanagement\\webfilemanagement.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|solutionrelative:webfilemanagement.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 472,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocalStorageBrokerService.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\LocalStorageBrokerService.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.StorageBroker\\Services\\LocalStorageBrokerService.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\LocalStorageBrokerService.cs",
+              "RelativeToolTip": "WebFileManagement.StorageBroker\\Services\\LocalStorageBrokerService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA9wE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:01:22.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IStorageBrokerService.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\IStorageBrokerService.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.StorageBroker\\Services\\IStorageBrokerService.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\IStorageBrokerService.cs",
+              "RelativeToolTip": "WebFileManagement.StorageBroker\\Services\\IStorageBrokerService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA2wA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:00:44.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStorageService.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Service\\Services\\IStorageService.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.Service\\Services\\IStorageService.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Service\\Services\\IStorageService.cs",
+              "RelativeToolTip": "WebFileManagement.Service\\Services\\IStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:21:51.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StorageService.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Service\\Services\\StorageService.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.Service\\Services\\StorageService.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Service\\Services\\StorageService.cs",
+              "RelativeToolTip": "WebFileManagement.Service\\Services\\StorageService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:21:35.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StorageController.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Server\\Controllers\\StorageController.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.Server\\Controllers\\StorageController.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Server\\Controllers\\StorageController.cs",
+              "RelativeToolTip": "WebFileManagement.Server\\Controllers\\StorageController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:47:08.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AwsStorageService.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\AwsStorageService.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.StorageBroker\\Services\\AwsStorageService.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\AwsStorageService.cs",
+              "RelativeToolTip": "WebFileManagement.StorageBroker\\Services\\AwsStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:01:47.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DropBoxStorageService.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\DropBoxStorageService.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.StorageBroker\\Services\\DropBoxStorageService.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\DropBoxStorageService.cs",
+              "RelativeToolTip": "WebFileManagement.StorageBroker\\Services\\DropBoxStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:02:41.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AzureStorageService.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\AzureStorageService.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.StorageBroker\\Services\\AzureStorageService.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\AzureStorageService.cs",
+              "RelativeToolTip": "WebFileManagement.StorageBroker\\Services\\AzureStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:05:57.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Server\\Program.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.Server\\Program.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Server\\Program.cs",
+              "RelativeToolTip": "WebFileManagement.Server\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:38:53.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebFileManagement.Service.csproj",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Service\\WebFileManagement.Service.csproj",
+              "RelativeDocumentMoniker": "WebFileManagement.Service\\WebFileManagement.Service.csproj",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Service\\WebFileManagement.Service.csproj",
+              "RelativeToolTip": "WebFileManagement.Service\\WebFileManagement.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-16T06:19:35.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebFileManagement.Server.csproj",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Server\\WebFileManagement.Server.csproj",
+              "RelativeDocumentMoniker": "WebFileManagement.Server\\WebFileManagement.Server.csproj",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Server\\WebFileManagement.Server.csproj",
+              "RelativeToolTip": "WebFileManagement.Server\\WebFileManagement.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-16T07:29:58.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Class1.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.StorageBroker\\Class1.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Class1.cs",
+              "RelativeToolTip": "WebFileManagement.StorageBroker\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T05:58:56.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Service\\Class1.cs",
+              "RelativeDocumentMoniker": "WebFileManagement.Service\\Class1.cs",
+              "ToolTip": "D:\\Projects\\.Net Projects(Console)\\secondModule\\WebFileManagement\\WebFileManagement.Service\\Class1.cs",
+              "RelativeToolTip": "WebFileManagement.Service\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T05:57:39.263Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 390,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

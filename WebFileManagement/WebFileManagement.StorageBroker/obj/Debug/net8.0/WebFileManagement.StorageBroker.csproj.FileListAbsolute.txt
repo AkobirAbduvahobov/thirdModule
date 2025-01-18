@@ -1,0 +1,12 @@
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\bin\Debug\net8.0\WebFileManagement.StorageBroker.deps.json
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\bin\Debug\net8.0\WebFileManagement.StorageBroker.dll
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\bin\Debug\net8.0\WebFileManagement.StorageBroker.pdb
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\obj\Debug\net8.0\WebFileManagement.StorageBroker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\obj\Debug\net8.0\WebFileManagement.StorageBroker.AssemblyInfoInputs.cache
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\obj\Debug\net8.0\WebFileManagement.StorageBroker.AssemblyInfo.cs
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\obj\Debug\net8.0\WebFileManagement.StorageBroker.csproj.CoreCompileInputs.cache
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\obj\Debug\net8.0\WebFileManagement.StorageBroker.sourcelink.json
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\obj\Debug\net8.0\WebFileManagement.StorageBroker.dll
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\obj\Debug\net8.0\refint\WebFileManagement.StorageBroker.dll
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\obj\Debug\net8.0\WebFileManagement.StorageBroker.pdb
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.StorageBroker\obj\Debug\net8.0\ref\WebFileManagement.StorageBroker.dll

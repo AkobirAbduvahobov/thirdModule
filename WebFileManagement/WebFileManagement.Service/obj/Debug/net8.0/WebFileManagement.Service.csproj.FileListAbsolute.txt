@@ -1,0 +1,16 @@
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\bin\Debug\net8.0\WebFileManagement.Service.deps.json
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\bin\Debug\net8.0\WebFileManagement.Service.dll
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\bin\Debug\net8.0\WebFileManagement.Service.pdb
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\bin\Debug\net8.0\WebFileManagement.StorageBroker.dll
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\bin\Debug\net8.0\WebFileManagement.StorageBroker.pdb
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\WebFileManagement.Service.csproj.AssemblyReference.cache
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\WebFileManagement.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\WebFileManagement.Service.AssemblyInfoInputs.cache
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\WebFileManagement.Service.AssemblyInfo.cs
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\WebFileManagement.Service.csproj.CoreCompileInputs.cache
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\WebFileManagement.Service.sourcelink.json
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\WebFileM.B3F34E65.Up2Date
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\WebFileManagement.Service.dll
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\refint\WebFileManagement.Service.dll
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\WebFileManagement.Service.pdb
+D:\Projects\.Net Projects(Console)\secondModule\WebFileManagement\WebFileManagement.Service\obj\Debug\net8.0\ref\WebFileManagement.Service.dll

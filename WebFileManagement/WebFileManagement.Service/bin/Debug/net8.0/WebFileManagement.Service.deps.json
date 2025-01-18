@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebFileManagement.Service/1.0.0": {
+        "dependencies": {
+          "WebFileManagement.StorageBroker": "1.0.0"
+        },
+        "runtime": {
+          "WebFileManagement.Service.dll": {}
+        }
+      },
+      "WebFileManagement.StorageBroker/1.0.0": {
+        "runtime": {
+          "WebFileManagement.StorageBroker.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebFileManagement.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebFileManagement.StorageBroker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
