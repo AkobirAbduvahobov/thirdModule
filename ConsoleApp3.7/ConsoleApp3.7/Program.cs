@@ -1,30 +1,67 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Diagnostics;
+using System.Text.RegularExpressions;
+using test;
 
 namespace ConsoleApp3._7;
 
 internal class Program
 {
 
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-        //var drPath = @"D:\Work\Groups\G_10_C#\Classwork\3.7_tasks";
 
-        //var files = Directory.GetFiles(drPath).ToList();
 
-        //foreach (var file in files)
-        //{
-        //    if (file.Contains("results")) continue;
-        //    var thread = new Thread(() => WriteNumberOfDigitsToFile(file));
-        //    thread.Start();
-        //}
+        Task newTask = Task.Run();
 
-        Console.WriteLine(ValidateName("Akobir"));
-        Console.WriteLine(ValidateName("hello"));
-        Console.WriteLine(ValidateName("Akobir212"));
-        Console.WriteLine(ValidateName("Ako bir"));
-        Console.WriteLine(ValidateName("AKobir"));
-        Console.WriteLine(ValidateName("Umar"));
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
+        Console.WriteLine("Main is started");
 
+        var do1Task = Do1();
+        var do2Task = Do2();
+        var do3Task = Do3();
+
+        //Do1();
+        //Do2();
+        //Do3();
+
+        //Task.WaitAll(do1Task, do2Task, do3Task);
+        var allTask = Task.WhenAll(do1Task, do2Task, do3Task);
+
+        Console.WriteLine("salom Dunyo");
+
+        await allTask;  
+
+
+        //await do1Task;
+        //await do2Task;
+        //await do3Task;
+
+        stopwatch.Stop();
+        Console.WriteLine(stopwatch.ToString());
+
+        Console.WriteLine("Main is finished");
+    }
+
+    public static async Task Do1()
+    {
+        Console.WriteLine("Do1 is started");
+        await Task.Delay(6000);
+        Console.WriteLine("Do1 is finished");
+    }
+
+    public static async Task Do2()
+    {
+        Console.WriteLine("Do2 is started");
+        await Task.Delay(5000);
+        Console.WriteLine("Do2 is finished");
+    }
+
+    public static async Task Do3()
+    {
+        Console.WriteLine("Do3 is started");
+        await Task.Delay(4000);
+        Console.WriteLine("Do3 is finished");
     }
 
     public static bool ValidateName(string name)

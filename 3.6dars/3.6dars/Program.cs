@@ -1,19 +1,16 @@
-﻿using System;
-
-namespace _3._6dars;
+﻿namespace _3._6dars;
 
 internal class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-        //(int, string) myValue = (45, "salom");
-        //Console.WriteLine(myValue.Item1);
-        //Console.WriteLine(myValue.Item2);
+        Console.WriteLine("Main is started");
 
-        var res = GetMaxMin(43, 55, 12);
-        Console.WriteLine(res.Item1);
-        Console.WriteLine(res.Item2);
+        HttpClientClass httpClientClass = new HttpClientClass();
 
+        await httpClientClass.GetAll();
+
+        Console.WriteLine("Main is finished 3.6");
     }
 
     public static (int, int) GetMaxMin(int num1, int num2, int num3)

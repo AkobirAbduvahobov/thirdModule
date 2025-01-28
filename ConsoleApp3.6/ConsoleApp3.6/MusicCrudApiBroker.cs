@@ -13,7 +13,7 @@ public class MusicCrudApiBroker
         _baseUrl = "http://localhost:5044/api/music";
         _httpClient = new HttpClient();
         //Add();
-        GetAll();
+        //GetAll();
         //GetById();
         //Delete();
         //Update();
