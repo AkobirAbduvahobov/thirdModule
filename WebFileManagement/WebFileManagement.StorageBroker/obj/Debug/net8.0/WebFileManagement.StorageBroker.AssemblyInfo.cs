@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebFileManagement.StorageBroker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96bf8da2f446582468f330c3ed66e531dbf1a051")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82c4b4fef1e785bea27e15632be25c0bf6bb9df2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebFileManagement.StorageBroker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebFileManagement.StorageBroker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

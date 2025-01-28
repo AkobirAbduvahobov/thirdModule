@@ -15,19 +15,19 @@ public class StorageController : ControllerBase
     }
 
     [HttpPost("uploadFile")]
-    public void UploadFile(IFormFile file, string? directoryPath)
+    public async Task UploadFile(IFormFile file, string? directoryPath)
     {
         directoryPath = directoryPath ?? string.Empty;
         directoryPath = Path.Combine(directoryPath, file.FileName);
 
         using (var stream = file.OpenReadStream())
         {
-            _storageService.UploadFile(directoryPath, stream);
+            await _storageService.UploadFileAsync(directoryPath, stream);
         }
     }
 
     [HttpPost("uploadFiles")]
-    public void UploadFiles(List<IFormFile> files, string? directoryPath)
+    public async Task UploadFiles(List<IFormFile> files, string? directoryPath)
     {
         directoryPath = directoryPath ?? string.Empty;
         var mainPath = directoryPath;
@@ -42,27 +42,27 @@ public class StorageController : ControllerBase
 
             using (var stream = file.OpenReadStream())
             {
-                _storageService.UploadFile(directoryPath, stream);
+                await _storageService.UploadFileAsync(directoryPath, stream);
             }
         }
     }
 
     [HttpPost("createFolder")]
-    public void CreateFolder(string folderPath)
+    public async Task CreateFolder(string folderPath)
     {
-        _storageService.CreateDirectory(folderPath);
+        await _storageService.CreateDirectoryAsync(folderPath);
     }
 
     [HttpGet("getAll")]
-    public List<string> GetAllInFolderPath(string? directoryPath)
+    public async Task<List<string>> GetAllInFolderPath(string? directoryPath)
     {
         directoryPath = directoryPath ?? string.Empty;
-        var all = _storageService.GetAllFilesAndDirectories(directoryPath);
+        var all =  await _storageService.GetAllFilesAndDirectoriesAsync(directoryPath);
         return all;
     }
 
     [HttpGet("downloadFile")]
-    public FileStreamResult DownloadFile(string filePath)
+    public async Task<FileStreamResult> DownloadFile(string filePath)
     {
         if (string.IsNullOrEmpty(filePath))
         {
@@ -71,7 +71,7 @@ public class StorageController : ControllerBase
 
         var fileName = Path.GetFileName(filePath);
 
-        var stream = _storageService.DownloadFile(filePath);
+        var stream = await _storageService.DownloadFileAsync(filePath);
 
 
         var res = new FileStreamResult(stream, "application/octet-stream")
@@ -83,7 +83,7 @@ public class StorageController : ControllerBase
     }
 
     [HttpGet("downloadFolderAsZip")]
-    public FileStreamResult DownloadFolderAsZip(string directoryPath)
+    public async Task<FileStreamResult> DownloadFolderAsZip(string directoryPath)
     {
         if (string.IsNullOrEmpty(directoryPath))
         {
@@ -92,7 +92,7 @@ public class StorageController : ControllerBase
 
         var directoryName = Path.GetFileName(directoryPath);
 
-        var stream = _storageService.DownloadFolderAsZip(directoryPath);
+        var stream = await _storageService.DownloadFolderAsZipAsync(directoryPath);
 
         try
         {
@@ -110,14 +110,14 @@ public class StorageController : ControllerBase
     }
 
     [HttpDelete("deleteFile")]
-    public void DeleteFile(string filePath)
+    public async Task DeleteFile(string filePath)
     {
-        _storageService.DeleteFile(filePath);
+        await _storageService.DeleteFileAsync(filePath);
     }
 
     [HttpDelete("deleteDirectory")]
-    public void DeleteDirectory(string directoryPath)
+    public async Task DeleteDirectory(string directoryPath)
     {
-        _storageService.DeleteDirectory(directoryPath);
+        await _storageService.DeleteDirectoryAsync(directoryPath);
     }
 }

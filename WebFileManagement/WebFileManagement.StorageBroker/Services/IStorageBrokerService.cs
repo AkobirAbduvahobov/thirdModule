@@ -4,11 +4,11 @@ namespace WebFileManagement.StorageBroker.Services;
 
 public interface IStorageBrokerService
 {
-    void UploadFile(string filePath, Stream stream);
-    void CreateDirectory(string directoryPath);
-    List<string> GetAllFilesAndDirectories(string directoryPath);
-    Stream DownloadFile(string filePath);
-    Stream DownloadFolderAsZip(string directoryPath);
-    void DeleteFile(string filePath);   
-    void DeleteDirectory(string directoryPath);   
+    Task UploadFileAsync(string filePath, Stream stream);
+    Task CreateDirectoryAsync(string directoryPath);
+    Task<List<string>> GetAllFilesAndDirectoriesAsync(string directoryPath);
+    Task<Stream> DownloadFileAsync(string filePath);
+    Task<Stream> DownloadFolderAsZipAsync(string directoryPath);
+    Task DeleteFileAsync(string filePath);
+    Task DeleteDirectoryAsync(string directoryPath);   
 }

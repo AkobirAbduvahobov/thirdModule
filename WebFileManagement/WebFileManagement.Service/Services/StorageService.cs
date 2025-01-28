@@ -12,41 +12,41 @@ public class StorageService : IStorageService
         _storageBrokerService = storageBrokerService;
     }
 
-    public void CreateDirectory(string directoryPath)
+    public async Task CreateDirectoryAsync(string directoryPath)
     {
-        _storageBrokerService.CreateDirectory(directoryPath);
+        await _storageBrokerService.CreateDirectoryAsync(directoryPath);
     }
 
-    public void DeleteDirectory(string directoryPath)
+    public async Task DeleteDirectoryAsync(string directoryPath)
     {
-        _storageBrokerService.DeleteDirectory(directoryPath);
+        await _storageBrokerService.DeleteDirectoryAsync(directoryPath);
     }
 
-    public void DeleteFile(string filePath)
+    public async Task DeleteFileAsync(string filePath)
     {
-        _storageBrokerService.DeleteFile(filePath); 
+        await _storageBrokerService.DeleteFileAsync(filePath); 
     }
 
-    public Stream DownloadFile(string filePath)
+    public async Task<Stream> DownloadFileAsync(string filePath)
     {
-        return _storageBrokerService.DownloadFile(filePath);
+        return await _storageBrokerService.DownloadFileAsync(filePath);
     }
 
-    public Stream DownloadFolderAsZip(string directoryPath)
+    public async Task<Stream> DownloadFolderAsZipAsync(string directoryPath)
     {
-        return _storageBrokerService.DownloadFolderAsZip(directoryPath);
+        return await _storageBrokerService.DownloadFolderAsZipAsync(directoryPath);
     }
 
-    public List<string> GetAllFilesAndDirectories(string directoryPath)
+    public async Task<List<string>> GetAllFilesAndDirectoriesAsync(string directoryPath)
     {
-        var filesAndDirectories = _storageBrokerService.GetAllFilesAndDirectories(directoryPath);
+        var filesAndDirectories = await _storageBrokerService.GetAllFilesAndDirectoriesAsync(directoryPath);
 
         return filesAndDirectories;
     }
 
-    public void UploadFile(string filePath, Stream stream)
+    public async Task UploadFileAsync(string filePath, Stream stream)
     {
-        _storageBrokerService.UploadFile(filePath, stream);
+        await _storageBrokerService.UploadFileAsync(filePath, stream);
     }
 
     

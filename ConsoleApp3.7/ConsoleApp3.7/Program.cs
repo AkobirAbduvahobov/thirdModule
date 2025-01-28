@@ -9,38 +9,67 @@ internal class Program
 
     static async Task Main(string[] args)
     {
+        //Stopwatch stopwatch = new Stopwatch();
+        //stopwatch.Start();
+        //Console.WriteLine("Main is started");
 
+        //var do1Task = Do1();
+        //var do2Task = Do2();
+        //var do3Task = Do3();
 
-        Task newTask = Task.Run();
+        ////Do1();
+        ////Do2();
+        ////Do3();
 
-        Stopwatch stopwatch = new Stopwatch();
-        stopwatch.Start();
-        Console.WriteLine("Main is started");
+        ////Task.WaitAll(do1Task, do2Task, do3Task);
+        //var allTask = Task.WhenAll(do1Task, do2Task, do3Task);
 
-        var do1Task = Do1();
-        var do2Task = Do2();
-        var do3Task = Do3();
+        //Console.WriteLine("salom Dunyo");
 
-        //Do1();
-        //Do2();
-        //Do3();
-
-        //Task.WaitAll(do1Task, do2Task, do3Task);
-        var allTask = Task.WhenAll(do1Task, do2Task, do3Task);
-
-        Console.WriteLine("salom Dunyo");
-
-        await allTask;  
+        //await allTask;  
 
 
         //await do1Task;
         //await do2Task;
         //await do3Task;
 
+        //stopwatch.Stop();
+        //Console.WriteLine(stopwatch.ToString());
+
+        //Console.WriteLine("Main is finished");
+
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
+
+        var folderpath = @"D:\Work\Groups\G_10_C#\Classwork\3.7_tasks";
+        var files = Directory.GetFiles(folderpath);
+
+        var tasks = files
+            .Select(file => Task.Run(() => WriteNumberOfDigitsToFile(file)));
+
+        await Task.WhenAll(tasks);
+
         stopwatch.Stop();
         Console.WriteLine(stopwatch.ToString());
 
-        Console.WriteLine("Main is finished");
+        Console.WriteLine("Finish");
+
+        //Stopwatch stopwatch = new Stopwatch();
+        //stopwatch.Start();
+
+        //var folderpath = @"D:\Work\Groups\G_10_C#\Classwork\3.7_tasks";
+        //var files = Directory.GetFiles(folderpath);
+
+        //foreach (var file in files)
+        //{
+        //    var thread = new Thread(() => WriteNumberOfDigitsToFile(file));
+        //    thread.Start();
+        //}
+
+        //stopwatch.Stop();
+        //Console.WriteLine(stopwatch.ToString());
+
+        //Console.WriteLine("Finish");
     }
 
     public static async Task Do1()
@@ -77,6 +106,12 @@ internal class Program
     public static void WriteNumberOfDigitsToFile(string filePath)
     {
         var resultPath = @"D:\Work\Groups\G_10_C#\Classwork\3.7_tasks\results.txt";
+
+        if(filePath == resultPath)
+        {
+            return;
+        }
+
         lock (_lock)
         {
             if (!File.Exists(filePath))

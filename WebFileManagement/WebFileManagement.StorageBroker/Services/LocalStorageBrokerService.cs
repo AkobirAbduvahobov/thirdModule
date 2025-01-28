@@ -15,14 +15,14 @@ public class LocalStorageBrokerService : IStorageBrokerService
         }
     }
 
-    public void CreateDirectory(string directoryPath)
+    public async Task CreateDirectoryAsync(string directoryPath)
     {
         directoryPath = Path.Combine(_dataPath, directoryPath); 
         ValidateDirectoryPath(directoryPath);
         Directory.CreateDirectory(directoryPath);
     }
 
-    public void DeleteDirectory(string directoryPath)
+    public async Task DeleteDirectoryAsync(string directoryPath)
     {
         directoryPath = Path.Combine(_dataPath, directoryPath);
 
@@ -34,7 +34,7 @@ public class LocalStorageBrokerService : IStorageBrokerService
         Directory.Delete(directoryPath, true);
     }
 
-    public void DeleteFile(string filePath)
+    public async Task DeleteFileAsync(string filePath)
     {
         filePath = Path.Combine(_dataPath, filePath);
 
@@ -46,7 +46,7 @@ public class LocalStorageBrokerService : IStorageBrokerService
         File.Delete(filePath);
     }
 
-    public Stream DownloadFile(string filePath)
+    public async Task<Stream> DownloadFileAsync(string filePath)
     {
         filePath = Path.Combine(_dataPath, filePath);
 
@@ -60,7 +60,7 @@ public class LocalStorageBrokerService : IStorageBrokerService
         return stream;
     }
 
-    public Stream DownloadFolderAsZip(string directoryPath)
+    public async Task<Stream> DownloadFolderAsZipAsync(string directoryPath)
     {
         if(Path.GetExtension(directoryPath) != string.Empty)
         {
@@ -82,7 +82,7 @@ public class LocalStorageBrokerService : IStorageBrokerService
         return stream;
     }
 
-    public List<string> GetAllFilesAndDirectories(string directoryPath)
+    public async Task<List<string>> GetAllFilesAndDirectoriesAsync(string directoryPath)
     {
         directoryPath = Path.Combine(_dataPath, directoryPath); 
 
@@ -100,7 +100,7 @@ public class LocalStorageBrokerService : IStorageBrokerService
         return allFilesAndFolders;
     }
 
-    public void UploadFile(string filePath, Stream stream)
+    public async Task UploadFileAsync(string filePath, Stream stream)
     {
         filePath = Path.Combine(_dataPath, filePath);
         var parentPath = Directory.GetParent(filePath);
@@ -112,7 +112,7 @@ public class LocalStorageBrokerService : IStorageBrokerService
 
         using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
         {
-            stream.CopyTo(fileStream);
+            await stream.CopyToAsync(fileStream);
         }
     }
 
