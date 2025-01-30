@@ -41,13 +41,6 @@ internal class Program
         Console.WriteLine("Do3 is finished");
     }
 
-
-
-
-
-
-
-
     public static async Task<string> GetTea()
     {
         var boiledWaterTask = await BoilWater();
