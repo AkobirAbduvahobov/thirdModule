@@ -7,15 +7,21 @@ internal class Program
     public delegate void SendMessage(string message);   
     public delegate double GetAnswer(double num1, double num2);
 
-
     static void Main(string[] args)
     {
-        Func<int, int, int, int> func1 = Add;
-        Func<int, int, int, int, int> func2 = Multiply;
+        
     }
 
+
+
+
+
+
+
+
+
     // 🚀 Math & Number Functions
-    public static int Add(int a, int b, int c) => a + b + c;
+    public static int Add(int a, int b, int c) => a + b + c; // done
     public static int Multiply(int a, int b, int c, int d) => a * b * c * d;
     public static double Divide(double a, double b) => b != 0 ? a / b : double.NaN;
     public static (int sum, int product) SumAndProduct(int a, int b) => (a + b, a * b);
