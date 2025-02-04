@@ -4,8 +4,8 @@ namespace MucisCRUD.Service.Service;
 
 public interface IMusicService
 {
-    Task<Guid> AddMusicAsync(MusicDto musicDto);
-    Task DeleteMusicAsync(Guid id);
+    Task<long> AddMusicAsync(MusicDto musicDto);
+    Task DeleteMusicAsync(long id);
     Task<List<MusicDto>> GetAllMusicAsync();
     Task UpdateMusicAsync(MusicDto musicDto);
 

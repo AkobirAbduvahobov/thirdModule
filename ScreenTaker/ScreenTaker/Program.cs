@@ -7,7 +7,7 @@ class Program
 {
     static async Task Main()
     {
-        var filePath = @"D:\D51_20240923000000.mp4";
+        var filePath = @"D:\D47_20241103000000.mp4";
         await GenerateScreenshots(filePath);
     }
 

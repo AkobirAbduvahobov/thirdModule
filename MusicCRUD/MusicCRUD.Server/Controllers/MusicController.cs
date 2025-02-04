@@ -16,7 +16,7 @@ public class MusicController : ControllerBase
     }
 
     [HttpPost("addMusic")]
-    public async Task<Guid> PostMusic(MusicDto musicDto)
+    public async Task<long> PostMusic(MusicDto musicDto)
     {
         var id = await _musicService.AddMusicAsync(musicDto);
         return id;
@@ -30,7 +30,7 @@ public class MusicController : ControllerBase
     }
 
     [HttpDelete("deleteMusic")]
-    public async Task DeleteMusic(Guid id)
+    public async Task DeleteMusic(long id)
     {
         await _musicService.DeleteMusicAsync(id);
     }

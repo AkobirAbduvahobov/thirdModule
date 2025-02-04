@@ -10,15 +10,15 @@ public interface IMusicRepository
     /// </summary>
     /// <param name="music"></param>
     /// <returns></returns>
-    Task<Guid> AddMusicAsync(Music music);
+    Task<long> AddMusicAsync(Music music);
 
     /// <summary>
     /// This method removes music from storage.
     /// </summary>
     /// <param name="id"></param>
-    Task DeleteMusicAsync(Guid id);
+    Task DeleteMusicAsync(long id);
 
     Task UpdateMusicAsync(Music music);
-    Task<Music> GetMusicByIdAsync(Guid id);
+    Task<Music> GetMusicByIdAsync(long id);
     Task<List<Music>> GetAllMusicAsync();
 }

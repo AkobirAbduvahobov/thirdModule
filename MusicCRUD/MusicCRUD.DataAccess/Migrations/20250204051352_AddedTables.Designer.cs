@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MusicCRUD.DataAccess;
 
@@ -11,9 +12,11 @@ using MusicCRUD.DataAccess;
 namespace MusicCRUD.DataAccess.Migrations
 {
     [DbContext(typeof(MainContext))]
-    partial class MainContextModelSnapshot : ModelSnapshot
+    [Migration("20250204051352_AddedTables")]
+    partial class AddedTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,7 +47,7 @@ namespace MusicCRUD.DataAccess.Migrations
 
                     b.HasIndex("MusicId");
 
-                    b.ToTable("Comments");
+                    b.ToTable("Comment");
                 });
 
             modelBuilder.Entity("MusicCRUD.DataAccess.Entity.Music", b =>
@@ -78,61 +81,6 @@ namespace MusicCRUD.DataAccess.Migrations
                     b.ToTable("Music");
                 });
 
-            modelBuilder.Entity("MusicCRUD.DataAccess.Entity.User", b =>
-                {
-                    b.Property<long>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("UserId"));
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UserName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("UserId");
-
-                    b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("MusicCRUD.DataAccess.Entity.UserDetail", b =>
-                {
-                    b.Property<long>("UserDetailId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("UserDetailId"));
-
-                    b.Property<int>("Age")
-                        .HasColumnType("int");
-
-                    b.Property<long>("UserId")
-                        .HasColumnType("bigint");
-
-                    b.HasKey("UserDetailId");
-
-                    b.HasIndex("UserId")
-                        .IsUnique();
-
-                    b.ToTable("UserDetails");
-                });
-
             modelBuilder.Entity("MusicCRUD.DataAccess.Entity.Comment", b =>
                 {
                     b.HasOne("MusicCRUD.DataAccess.Entity.Music", "Music")
@@ -144,26 +92,9 @@ namespace MusicCRUD.DataAccess.Migrations
                     b.Navigation("Music");
                 });
 
-            modelBuilder.Entity("MusicCRUD.DataAccess.Entity.UserDetail", b =>
-                {
-                    b.HasOne("MusicCRUD.DataAccess.Entity.User", "User")
-                        .WithOne("UserDetail")
-                        .HasForeignKey("MusicCRUD.DataAccess.Entity.UserDetail", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("MusicCRUD.DataAccess.Entity.Music", b =>
                 {
                     b.Navigation("Comments");
-                });
-
-            modelBuilder.Entity("MusicCRUD.DataAccess.Entity.User", b =>
-                {
-                    b.Navigation("UserDetail")
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

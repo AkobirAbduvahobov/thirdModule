@@ -13,14 +13,14 @@ public class MusicService : IMusicService
         _musicRepository = musicRepository;
     }
 
-    public async Task<Guid> AddMusicAsync(MusicDto musicDto)
+    public async Task<long> AddMusicAsync(MusicDto musicDto)
     {
         var music = ConvertToMusicEntity(musicDto);
         var idRes = await _musicRepository.AddMusicAsync(music);
         return idRes;
     }
 
-    public async Task DeleteMusicAsync(Guid id)
+    public async Task DeleteMusicAsync(long id)
     {
         await _musicRepository.DeleteMusicAsync(id);
     }
@@ -42,7 +42,7 @@ public class MusicService : IMusicService
     {
         return new Music()
         {
-            Id = musicDto.Id ?? Guid.NewGuid(),
+            MusicId = musicDto.MusicId ?? 0,
             Name = musicDto.Name,
             MB = musicDto.MB,
             AuthorName = musicDto.AuthorName,
@@ -55,7 +55,7 @@ public class MusicService : IMusicService
     {
         return new MusicDto()
         {
-            Id = music.Id,
+            MusicId = music.MusicId,
             Name = music.Name,
             MB = music.MB,
             AuthorName = music.AuthorName,

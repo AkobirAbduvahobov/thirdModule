@@ -26,14 +26,14 @@ public class MusicRepositoryFile : IMusicRepository
         _music = GetAllMusicAsync().Result;
     }
 
-    public async Task<Guid> AddMusicAsync(Music music)
+    public async Task<long> AddMusicAsync(Music music)
     {
         _music.Add(music);
         await SaveDataAsync();
-        return music.Id;
+        return music.MusicId;
     }
 
-    public async Task DeleteMusicAsync(Guid id)
+    public async Task DeleteMusicAsync(long id)
     {
         var music = await GetMusicByIdAsync(id);
         _music.Remove(music);
@@ -47,9 +47,9 @@ public class MusicRepositoryFile : IMusicRepository
         return musicList ?? new List<Music>();
     }
 
-    public async Task<Music> GetMusicByIdAsync(Guid id)
+    public async Task<Music> GetMusicByIdAsync(long id)
     {
-        var music = _music.FirstOrDefault(x => x.Id == id);
+        var music = _music.FirstOrDefault(x => x.MusicId == id);
         if (music == null)
         {
             throw new Exception($"Music with id {id} not found");
@@ -60,7 +60,7 @@ public class MusicRepositoryFile : IMusicRepository
 
     public async Task UpdateMusicAsync(Music music)
     {
-        var musicFromDb = await GetMusicByIdAsync(music.Id);
+        var musicFromDb = await GetMusicByIdAsync(music.MusicId);
         var index = _music.IndexOf(musicFromDb);
         _music[index] = music;
         await SaveDataAsync();
