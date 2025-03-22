@@ -23,7 +23,8 @@ public class Program
         builder.Services.AddScoped<IMusicService, MusicService>();
         //builder.Services.AddScoped<IMusicRepository, MusicRepository>();
         //builder.Services.AddSingleton<MainContext>();
-        builder.Services.AddScoped<IMusicRepository, MusicRepositoryFile>();
+        //builder.Services.AddScoped<IMusicRepository, MusicRepositoryFile>();
+        builder.Services.AddScoped<IMusicRepository, MusicRepositoryAdoNet>();
 
         var app = builder.Build();
 
