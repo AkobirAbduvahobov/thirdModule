@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projects\\.Net Projects(Console)\\thirdModule\\WebFileManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|d:\\projects\\.net projects(console)\\thirdmodule\\webfilemanagement\\webfilemanagement.server\\controllers\\storagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|solutionrelative:webfilemanagement.server\\controllers\\storagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|d:\\projects\\.net projects(console)\\thirdmodule\\webfilemanagement\\webfilemanagement.storagebroker\\services\\istoragebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{372E64C2-53D0-434B-B770-079B692FD3BA}|WebFileManagement.StorageBroker\\WebFileManagement.StorageBroker.csproj|solutionrelative:webfilemanagement.storagebroker\\services\\istoragebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|d:\\projects\\.net projects(console)\\thirdmodule\\webfilemanagement\\webfilemanagement.service\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{677A3E4D-45DC-4F84-9EC0-F844013D38EE}|WebFileManagement.Service\\WebFileManagement.Service.csproj|solutionrelative:webfilemanagement.service\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|d:\\projects\\.net projects(console)\\thirdmodule\\webfilemanagement\\webfilemanagement.server\\controllers\\storagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|solutionrelative:webfilemanagement.server\\controllers\\storagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{113606FC-0503-4ABB-8519-EAA072DE4252}|WebFileManagement.Server\\WebFileManagement.Server.csproj|d:\\projects\\.net projects(console)\\thirdmodule\\webfilemanagement\\webfilemanagement.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,7 +69,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 472,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LocalStorageBrokerService.cs",
               "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\thirdModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\LocalStorageBrokerService.cs",
               "RelativeDocumentMoniker": "WebFileManagement.StorageBroker\\Services\\LocalStorageBrokerService.cs",
@@ -93,21 +93,19 @@
               "RelativeToolTip": "WebFileManagement.StorageBroker\\Services\\LocalStorageBrokerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T06:01:22.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T06:01:22.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IStorageBrokerService.cs",
               "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\thirdModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\IStorageBrokerService.cs",
               "RelativeDocumentMoniker": "WebFileManagement.StorageBroker\\Services\\IStorageBrokerService.cs",
               "ToolTip": "D:\\Projects\\.Net Projects(Console)\\thirdModule\\WebFileManagement\\WebFileManagement.StorageBroker\\Services\\IStorageBrokerService.cs",
               "RelativeToolTip": "WebFileManagement.StorageBroker\\Services\\IStorageBrokerService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T06:00:44.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T06:00:44.091Z"
             },
             {
               "$type": "Document",
@@ -123,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StorageService.cs",
               "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\thirdModule\\WebFileManagement\\WebFileManagement.Service\\Services\\StorageService.cs",
               "RelativeDocumentMoniker": "WebFileManagement.Service\\Services\\StorageService.cs",
@@ -135,15 +133,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "StorageController.cs",
               "DocumentMoniker": "D:\\Projects\\.Net Projects(Console)\\thirdModule\\WebFileManagement\\WebFileManagement.Server\\Controllers\\StorageController.cs",
               "RelativeDocumentMoniker": "WebFileManagement.Server\\Controllers\\StorageController.cs",
               "ToolTip": "D:\\Projects\\.Net Projects(Console)\\thirdModule\\WebFileManagement\\WebFileManagement.Server\\Controllers\\StorageController.cs",
               "RelativeToolTip": "WebFileManagement.Server\\Controllers\\StorageController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswGwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T06:47:08.942Z"
+              "WhenOpened": "2025-01-16T06:47:08.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
