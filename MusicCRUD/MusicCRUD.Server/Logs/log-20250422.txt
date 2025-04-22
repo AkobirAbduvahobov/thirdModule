@@ -1,0 +1,7 @@
+2025-04-22 08:49:39.819 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-04-22 08:49:42.836 +05:00 [INF] Hello from MusicController at "2025-04-22T03:49:42.8218208Z"
+2025-04-22 08:54:13.784 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-04-22 08:54:16.552 +05:00 [INF] Hello from MusicController at "2025-04-22T03:54:16.5347526Z"
+2025-04-22 08:54:20.850 +05:00 [ERR] An error occurred in GetAllMusic at "2025-04-22T03:54:20.8408011Z"
+System.Exception: Hatoli yuz berdi
+   at MusicCRUD.Server.Controllers.MusicController.GetAllMusic() in D:\Projects\.Net Projects(Console)\thirdModule\MusicCRUD\MusicCRUD.Server\Controllers\MusicController.cs:line 35

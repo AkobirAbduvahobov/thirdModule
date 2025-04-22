@@ -2,6 +2,7 @@ using MucisCRUD.Service.Service;
 using MusicCRUD.DataAccess;
 using MusicCRUD.Repository.Services;
 using MusicCRUD.Server.Configurations;
+using Serilog;
 
 namespace MusicCRUD.Server;
 
@@ -13,6 +14,8 @@ public class Program
 
         // Add services to the container.
 
+
+        builder.ConfigureSerilog();
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();

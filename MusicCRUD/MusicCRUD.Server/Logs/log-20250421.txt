@@ -1,0 +1,6 @@
+2025-04-21 22:29:25.876 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-04-21 22:29:29.537 +05:00 [INF] Hello from MusicController at "2025-04-21T17:29:29.5177209Z"
+2025-04-21 22:34:55.966 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-04-21 22:34:58.046 +05:00 [INF] Hello from MusicController at "2025-04-21T17:34:58.0435638Z"
+2025-04-21 22:35:18.574 +05:00 [INF] Hello from MusicController at "2025-04-21T17:35:18.5738830Z"
+2025-04-21 22:35:25.588 +05:00 [INF] Hello from MusicController at "2025-04-21T17:35:25.5882481Z"

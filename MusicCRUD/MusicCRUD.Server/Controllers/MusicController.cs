@@ -9,10 +9,12 @@ namespace MusicCRUD.Server.Controllers;
 public class MusicController : ControllerBase
 {
     private readonly IMusicService _musicService;
+    private readonly ILogger<MusicController> _logger;
 
-    public MusicController(IMusicService musicService)
+    public MusicController(IMusicService musicService, ILogger<MusicController> logger)
     {
         _musicService = musicService;
+        _logger = logger;
     }
 
     [HttpPost("addMusic")]
@@ -25,7 +27,18 @@ public class MusicController : ControllerBase
     [HttpGet("getAllMusic")]
     public async Task<List<MusicDto>> GetAllMusic()
     {
+        _logger.LogInformation("Hello from MusicController at {Time}", DateTime.UtcNow);
         var music = await _musicService.GetAllMusicAsync();
+
+        try
+        {
+            throw new Exception("Hatoli yuz berdi");
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "An error occurred in GetAllMusic at {Time}", DateTime.UtcNow);
+        }
+
         return music;
     }
 
