@@ -1,0 +1,61 @@
+2025-04-24 08:43:41.163 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 08:43:41.561 +05:00 [INF] Hello from MusicController at "2025-04-24T03:43:41.5599562Z"
+2025-04-24 08:43:42.282 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 08:43:42.823 +05:00 [ERR] 💥 Exception: Attempted to divide by zero.
+2025-04-24 08:44:12.390 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 08:44:12.814 +05:00 [INF] Hello from MusicController at "2025-04-24T03:44:12.8144970Z"
+2025-04-24 08:44:13.205 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 08:44:24.527 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at MusicCRUD.Server.Filters.MusicCountHeaderFilter.OnResultExecuted(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-24 08:44:24.555 +05:00 [ERR] Connection id "0HNC2S8LSRDDS", Request id "0HNC2S8LSRDDS:00000006": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at MusicCRUD.Server.Filters.MusicCountHeaderFilter.OnResultExecuted(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-04-24 08:53:59.005 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 08:53:59.232 +05:00 [INF] Hello from MusicController at "2025-04-24T03:53:59.2320303Z"
+2025-04-24 08:53:59.429 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 11:35:48.620 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 11:36:19.731 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 11:37:54.614 +05:00 [INF] Hello from MusicController at "2025-04-24T06:37:54.5996402Z"
+2025-04-24 11:38:29.099 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 11:39:22.383 +05:00 [ERR] 💥 Exception: Attempted to divide by zero.
+2025-04-24 11:41:04.835 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 11:41:06.406 +05:00 [INF] Hello from MusicController at "2025-04-24T06:41:06.3947838Z"
+2025-04-24 11:41:09.948 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 11:42:21.127 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-24 11:42:22.286 +05:00 [INF] Hello from MusicController at "2025-04-24T06:42:22.2796743Z"
+2025-04-24 11:42:23.518 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)

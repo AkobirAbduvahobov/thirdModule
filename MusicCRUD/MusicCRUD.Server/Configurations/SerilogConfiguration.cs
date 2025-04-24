@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using MusicCRUD.DataAccess;
-using MusicCRUD.Repository.Settings;
-using Serilog;
+﻿using Serilog;
 
 namespace MusicCRUD.Server.Configurations;
 
@@ -13,7 +10,7 @@ public static class SerilogConfiguration
         .ReadFrom.Configuration(builder.Configuration)
         .CreateLogger();
 
-        builder.Logging.ClearProviders(); 
-        builder.Logging.AddSerilog(dispose: true); 
+        builder.Logging.ClearProviders();
+        builder.Logging.AddSerilog(dispose: true);
     }
 }

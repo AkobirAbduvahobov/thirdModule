@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicCRUD.Server", "MusicCRUD.Server\MusicCRUD.Server.csproj", "{80285CC1-615C-4569-995F-8E6B21BE2265}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicCRUD.DataAccess", "MusicCRUD.DataAccess\MusicCRUD.DataAccess.csproj", "{3F675C96-4D3E-4255-AFD7-6FD971F9A5B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicCRUD.Repository", "MusicCRUD.Repository\MusicCRUD.Repository.csproj", "{CF14ECE0-1CAD-41F4-9EE4-2F213F79EDDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicCRUD.Core", "MusicCRUD.Core\MusicCRUD.Core.csproj", "{199D7226-B8C2-4657-803E-A1B14CA87798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CF14ECE0-1CAD-41F4-9EE4-2F213F79EDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF14ECE0-1CAD-41F4-9EE4-2F213F79EDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF14ECE0-1CAD-41F4-9EE4-2F213F79EDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199D7226-B8C2-4657-803E-A1B14CA87798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199D7226-B8C2-4657-803E-A1B14CA87798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199D7226-B8C2-4657-803E-A1B14CA87798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199D7226-B8C2-4657-803E-A1B14CA87798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

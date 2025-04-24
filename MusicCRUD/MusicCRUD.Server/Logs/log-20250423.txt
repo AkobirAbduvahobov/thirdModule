@@ -1,0 +1,10 @@
+2025-04-23 21:58:12.067 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-23 21:58:53.381 +05:00 [INF] Hello from MusicController at "2025-04-23T16:58:53.3736303Z"
+2025-04-23 21:59:03.580 +05:00 [ERR] An error occurred in GetAllMusic at "2025-04-23T16:59:03.5741565Z"
+System.Exception: Hatoli yuz berdi
+   at MusicCRUD.Server.Controllers.MusicController.GetAllMusic() in D:\Projects\.Net Projects(Console)\thirdModule\MusicCRUD\MusicCRUD.Server\Controllers\MusicController.cs:line 38
+2025-04-23 21:59:14.508 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-23 22:00:52.297 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-23 22:01:03.751 +05:00 [INF] Hello from MusicController at "2025-04-23T17:01:03.7418939Z"
+2025-04-23 22:01:08.928 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-23 22:01:29.619 +05:00 [ERR] 💥 Exception: Attempted to divide by zero.
