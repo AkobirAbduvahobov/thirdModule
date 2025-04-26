@@ -1,0 +1,32 @@
+2025-04-25 20:58:40.967 +05:00 [INF] Request [GET] /swagger/index.html completed in 8338ms with status 200
+2025-04-25 20:58:52.259 +05:00 [INF] Request [GET] /swagger/v1/swagger.json completed in 558ms with status 200
+2025-04-25 20:59:09.878 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-25 20:59:09.881 +05:00 [INF] Hello from MusicController at "2025-04-25T15:59:09.8811306Z"
+2025-04-25 20:59:09.943 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-25 20:59:19.660 +05:00 [INF] Request [GET] /api/music/getAllMusic completed in 5649ms with status 200
+2025-04-25 21:00:51.009 +05:00 [INF] ➡️ POST - MusicCRUD.Server.Controllers.MusicController.PostMusic (MusicCRUD.Server)
+2025-04-25 21:00:51.507 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.PostMusic (MusicCRUD.Server)
+2025-04-25 21:01:47.382 +05:00 [INF] Request [POST] /api/music/addMusic completed in 11527ms with status 200
+2025-04-25 21:04:38.732 +05:00 [INF] Request [GET] /swagger/index.html completed in 51ms with status 200
+2025-04-25 21:04:42.109 +05:00 [INF] Request [GET] /swagger/v1/swagger.json completed in 11ms with status 200
+2025-04-25 21:04:50.708 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-25 21:04:52.863 +05:00 [INF] Hello from MusicController at "2025-04-25T16:04:52.8547104Z"
+2025-04-25 21:04:55.268 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-25 21:05:06.964 +05:00 [INF] Request [GET] /api/music/getAllMusic completed in 8886ms with status 200
+2025-04-25 21:07:22.628 +05:00 [INF] Request [GET] /swagger/index.html completed in 0.045ms with status 200
+2025-04-25 21:07:23.548 +05:00 [INF] Request [GET] /swagger/v1/swagger.json completed in 0.008ms with status 200
+2025-04-25 21:07:28.078 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-25 21:07:28.539 +05:00 [INF] Hello from MusicController at "2025-04-25T16:07:28.5393423Z"
+2025-04-25 21:07:28.583 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-25 21:07:28.601 +05:00 [INF] Request [GET] /api/music/getAllMusic completed in 0.543ms with status 200
+2025-04-25 21:10:24.366 +05:00 [INF] Request [GET] /swagger/index.html completed in 0.054 secunds with status 200
+2025-04-25 21:10:30.699 +05:00 [INF] Request [GET] /swagger/v1/swagger.json completed in 0.007 secunds with status 200
+2025-04-25 21:10:42.432 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-25 21:10:43.558 +05:00 [INF] Hello from MusicController at "2025-04-25T16:10:43.5528247Z"
+2025-04-25 21:10:45.056 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-25 21:10:45.661 +05:00 [INF] Request [GET] /api/music/getAllMusic completed in 3.265 secunds with status 200
+2025-04-25 21:12:31.492 +05:00 [INF] Request [GET] /swagger/index.html completed in 0.048 secunds with status 200
+2025-04-25 21:12:33.909 +05:00 [INF] Request [GET] /swagger/v1/swagger.json completed in 0.012 secunds with status 200
+2025-04-25 22:03:38.759 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-25 22:03:40.029 +05:00 [INF] Hello from MusicController at "2025-04-25T17:03:40.0208394Z"
+2025-04-25 22:03:42.972 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)

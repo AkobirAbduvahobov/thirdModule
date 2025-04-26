@@ -3,6 +3,7 @@ using MusicCRUD.DataAccess;
 using MusicCRUD.Repository.Services;
 using MusicCRUD.Server.Configurations;
 using MusicCRUD.Server.Filters;
+using MusicCRUD.Server.Middlewares;
 using Serilog;
 
 namespace MusicCRUD.Server;
@@ -45,6 +46,24 @@ public class Program
         builder.Services.AddScoped<IMusicRepository, MusicRepositoryAdoNet>();
 
         var app = builder.Build();
+
+        //app.UseMiddleware<TestMiddleware>();
+        //app.UseMiddleware<ApiKeyMiddleware>(); 
+        //app.UseMiddleware<GeoBlockMiddleware>(); 
+        //app.UseMiddleware<MaintenanceMiddleware>(); 
+        //app.UseMiddleware<NightBlockMiddleware>();
+        //app.UseMiddleware<GlobalExceptionMiddleware>(); // should be FIRST in the pipeline
+        //app.UseMiddleware<RequestLoggingMiddleware>();  // early in pipeline but after exception handling
+        //app.UseMiddleware<RequestDurationMiddleware>();
+
+
+        //app.Use(async (context, next) =>
+        //{
+        //    Console.WriteLine("Request received in inline middleware");
+        //    await next(); // continue pipeline
+        //});
+
+
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
