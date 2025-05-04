@@ -1,4 +1,5 @@
-﻿using MucisCRUD.Service.DTOs;
+﻿using Microsoft.Extensions.Caching.Memory;
+using MucisCRUD.Service.DTOs;
 using MusicCRUD.DataAccess.Entity;
 using MusicCRUD.Repository.Services;
 
@@ -7,28 +8,46 @@ namespace MucisCRUD.Service.Service;
 public class MusicService : IMusicService
 {
     private readonly IMusicRepository _musicRepository;
+    private readonly IMemoryCache _cache;
+    private const string _cacheKey = "my_music_list";
 
-    public MusicService(IMusicRepository musicRepository)
+    public MusicService(IMusicRepository musicRepository, IMemoryCache cache)
     {
         _musicRepository = musicRepository;
+        _cache = cache;
     }
 
     public async Task<long> AddMusicAsync(MusicDto musicDto)
     {
         var music = ConvertToMusicEntity(musicDto);
         var idRes = await _musicRepository.AddMusicAsync(music);
+        await RefreshMusicCacheAsync();
         return idRes;
     }
 
     public async Task DeleteMusicAsync(long id)
     {
         await _musicRepository.DeleteMusicAsync(id);
+        await RefreshMusicCacheAsync();
     }
 
     public async Task<List<MusicDto>> GetAllMusicAsync()
     {
+        if (_cache.TryGetValue(_cacheKey, out List<MusicDto> cachedMusic))
+        {
+            return cachedMusic;
+        }
+
         var music = await _musicRepository.GetAllMusicAsync();
         var musicDtos = music.Select(mu => ConvertToMusicDto(mu)).ToList();
+
+        _cache.Set(_cacheKey, musicDtos, new MemoryCacheEntryOptions
+        {
+            AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(20),
+            SlidingExpiration = TimeSpan.FromMinutes(15)
+        });
+
+
         return musicDtos;
     }
 
@@ -36,6 +55,19 @@ public class MusicService : IMusicService
     {
         var music = ConvertToMusicEntity(musicDto);
         await _musicRepository.UpdateMusicAsync(music);
+        await RefreshMusicCacheAsync();
+    }
+
+    private async Task RefreshMusicCacheAsync()
+    {
+        var music = await _musicRepository.GetAllMusicAsync();
+        var musicDtos = music.Select(mu => ConvertToMusicDto(mu)).ToList();
+
+        _cache.Set(_cacheKey, musicDtos, new MemoryCacheEntryOptions
+        {
+            AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10),
+            SlidingExpiration = TimeSpan.FromMinutes(2)
+        });
     }
 
     private Music ConvertToMusicEntity(MusicDto musicDto)

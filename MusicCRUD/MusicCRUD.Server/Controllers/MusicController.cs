@@ -26,8 +26,11 @@ public class MusicController : ControllerBase
         return id;
     }
 
+
     [HttpGet("getAllMusic")]
-    public async Task<List<MusicDto>> GetAllMusic()
+    [ProducesDefaultResponses]
+    [ResponseCache(Duration = 5, Location = ResponseCacheLocation.Any, NoStore = false)]
+    public async Task<ActionResult> GetAllMusic()
     {
         
         _logger.LogInformation("Hello from MusicController at {Time}", DateTime.UtcNow);
@@ -36,7 +39,7 @@ public class MusicController : ControllerBase
         //var num = 0;
         //var res = 45 / num;
 
-        return music;
+        return Ok(music);
     }
 
     [HttpDelete("deleteMusic")]

@@ -17,17 +17,20 @@ public class Program
         // Add services to the container.
 
 
-        builder.ConfigureSerilog();
+        //builder.ConfigureSerilog();
 
         builder.Services.AddControllers(options =>
         {
-            options.Filters.Add<GlobalExceptionFilter>();
-            options.Filters.AddService<MusicCountHeaderFilter>();
-            options.Filters.AddService<UserAgentFilter>();
+            //options.Filters.Add<GlobalExceptionFilter>();
+            //options.Filters.AddService<MusicCountHeaderFilter>();
+            //options.Filters.AddService<UserAgentFilter>();
         });
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
+        builder.Services.AddSwaggerGen(options =>
+        {
+            options.OperationFilter<ProducesDefaultResponsesOperationFilter>();
+        });
 
 
 
@@ -37,6 +40,12 @@ public class Program
         builder.Services.AddScoped<MusicCountHeaderFilter>();
         builder.Services.AddScoped<UserAgentFilter>();
         builder.Services.AddScoped<LogActionFilter>();
+
+        builder.Services.AddMemoryCache();
+
+        builder.Services.AddResponseCaching();
+
+
 
 
 
@@ -71,6 +80,7 @@ public class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+        app.UseResponseCaching();
 
         app.UseHttpsRedirection();
 

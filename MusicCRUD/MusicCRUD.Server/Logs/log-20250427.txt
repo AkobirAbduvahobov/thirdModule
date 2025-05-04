@@ -1,0 +1,12 @@
+2025-04-27 19:34:36.641 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-27 19:34:36.737 +05:00 [INF] Hello from MusicController at "2025-04-27T14:34:36.7362754Z"
+2025-04-27 19:34:36.875 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-27 19:36:02.245 +05:00 [INF] ➡️ POST - MusicCRUD.Server.Controllers.MusicController.PostMusic (MusicCRUD.Server)
+2025-04-27 19:36:02.325 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.PostMusic (MusicCRUD.Server)
+2025-04-27 19:39:53.896 +05:00 [INF] ➡️ GET - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-27 19:39:53.899 +05:00 [INF] Hello from MusicController at "2025-04-27T14:39:53.8997837Z"
+2025-04-27 19:39:53.903 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.GetAllMusic (MusicCRUD.Server)
+2025-04-27 19:40:59.389 +05:00 [INF] ➡️ POST - MusicCRUD.Server.Controllers.MusicController.PostMusic (MusicCRUD.Server)
+2025-04-27 19:40:59.402 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.PostMusic (MusicCRUD.Server)
+2025-04-27 19:41:33.523 +05:00 [INF] ➡️ POST - MusicCRUD.Server.Controllers.MusicController.PostMusic (MusicCRUD.Server)
+2025-04-27 19:41:33.539 +05:00 [INF] ✅ Finished - MusicCRUD.Server.Controllers.MusicController.PostMusic (MusicCRUD.Server)
